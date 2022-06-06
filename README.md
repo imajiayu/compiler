@@ -44,7 +44,7 @@
 
 3. 实现了**图形化**显示，设计了流畅使用的交互界面。
 
-   <img src="image-20220606135132083.png" alt="image-20220606135132083" style="zoom:67%;" />
+   <img src="https://github.com/imajiayu/compiler/blob/main/preview/image-20220606135132083.png" alt="image-20220606135132083" style="zoom:67%;" />
 
 ### 开发环境
 
@@ -87,7 +87,7 @@ g++ GenMips.cpp -o GenMips
 
 ## 系统设计
 
-![image-20220606141533696](image-20220606141533696.png)
+![image-20220606141533696](https://github.com/imajiayu/compiler/blob/main/preview/image-20220606141533696.png)
 
 **编译器采用模块化设计，由总程序对子程序进行调用，子程序输出至文件或其他子程序**：
 
@@ -294,7 +294,7 @@ if(!strcmp($1.lexeme,"main"))
 
 在声明函数时，同样对其形式参数进行声明：
 
-![image-20220606143814130](image-20220606143814130.png)
+![image-20220606143814130](https://github.com/imajiayu/compiler/blob/main/preview/image-20220606143814130.png)
 
 函数调用时生成的四元式：
 
@@ -428,23 +428,23 @@ addi $fp,$fp,268697596
 
 词法分析，输出结果与统计
 
-<img src="image-20220606151321998.png" alt="image-20220606151321998" style="zoom:67%;" />
+<img src="https://github.com/imajiayu/compiler/blob/main/preview/image-20220606151321998.png" alt="image-20220606151321998" style="zoom:67%;" />
 
 文法分析，输出代码结构
 
-<img src="image-20220606151346020.png" alt="image-20220606151346020" style="zoom:67%;" />
+<img src="https://github.com/imajiayu/compiler/blob/main/preview/image-20220606151346020.png" alt="image-20220606151346020" style="zoom:67%;" />
 
 四元式
 
-<img src="image-20220606151353241.png" alt="image-20220606151353241" style="zoom:67%;" />
+<img src="https://github.com/imajiayu/compiler/blob/main/preview/image-20220606151353241.png" alt="image-20220606151353241" style="zoom:67%;" />
 
 汇编
 
-<img src="image-20220606151425445.png" alt="image-20220606151425445" style="zoom:67%;" />
+<img src="https://github.com/imajiayu/compiler/blob/main/preview/image-20220606151425445.png" alt="image-20220606151425445" style="zoom:67%;" />
 
 错误提示
 
-<img src="image-20220606151246358.png" alt="image-20220606151246358" style="zoom:67%;" />
+<img src="https://github.com/imajiayu/compiler/blob/main/preview/image-20220606151246358.png" alt="image-20220606151246358" style="zoom:67%;" />
 
 ## 遇到问题与心得体会
 
